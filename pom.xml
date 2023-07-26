@@ -86,6 +86,16 @@
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
+
+        <!--lombok-->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <!--上线时不带这个jar包，lombok可以动态的生成字节码-->
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
