@@ -26,6 +26,6 @@ public class UserBizImpl implements UserBiz {
 
     @Override
     public void add(String uname) {
-
+        userDao.add(uname);
     }
 }

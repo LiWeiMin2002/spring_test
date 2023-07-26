@@ -36,10 +36,6 @@ public class MyDataSource implements DataSource {
 
     public MyDataSource(){
         System.out.println("MyDataSource构造成功......");
-        System.out.println("coreSize："+coreSize);
-        System.out.println("username："+username);
-        System.out.println("password："+password);
-        System.out.println("url："+url);
     }
 
     @PostConstruct
