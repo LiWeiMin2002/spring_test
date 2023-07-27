@@ -27,8 +27,5 @@ public class App {
         for(BankAccount ba:list){
             System.out.println(ba);
         }
-
-
-
     }
 }
