@@ -27,14 +27,14 @@ public class MyDataSource implements DataSource {
     //从属性文件中取
     @Value("${coreSize}")
     private int coreSize;
-    @Value("${user}")
+    @Value("${mysql.username}")
     private String username;
-    @Value("${password}")
+    @Value("${mysql.password}")
     private String password;
-    @Value("${url}")
+    @Value("${mysql.url}")
     private String url;
 
-    public MyDataSource(){
+    public MyDataSource() {
         System.out.println("MyDataSource构造成功......");
     }
 
@@ -67,6 +67,14 @@ public class MyDataSource implements DataSource {
             }
         } while (true);
     }
+
+    public void returnConnection(Connection con) {
+        MyConnection mc = new MyConnection();
+        mc.statue = false;
+        mc.con = con;
+        this.pool.add(mc);
+    }
+
 
     @Override
     public Connection getConnection(String username, String password) throws SQLException {
