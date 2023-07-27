@@ -7,11 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>spring学习</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>myspring</module>
+    </modules>
+    <packaging>pom</packaging>
 
-    <name>game_zhenghe Maven Webapp</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,6 +96,22 @@
             <version>1.18.24</version>
             <!--上线时不带这个jar包，lombok可以动态的生成字节码-->
             <scope>provided</scope>
+        </dependency>
+
+        <!--log4j2日志-->
+        <!--log4j-core-->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.19.0</version>
+        </dependency>
+        <!--log4j-slf4j2-impl-->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>2.19.0</version>
         </dependency>
     </dependencies>
 
