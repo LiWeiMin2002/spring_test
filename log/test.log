@@ -1,5 +1,2 @@
-15:19:43.540 ERROR TestMain 13 main - error
-15:19:43.543 WARN  TestMain 14 main - warn
-15:19:43.543 INFO  TestMain 15 main - info
-15:19:43.544 DEBUG TestMain 16 main - debug
-15:19:43.544 TRACE TestMain 17 main - trace
+16:00:48.963 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 50 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
+16:00:48.969 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 108 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/spring%e5%ad%a6%e4%b9%a0/myspring/target/classes/com/yc

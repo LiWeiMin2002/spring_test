@@ -9,11 +9,11 @@ import java.lang.annotation.Target;
  * @program: spring学习
  * @description:
  * @author: lwm
- * @create: 2023-07-27 15:23
+ * @create: 2023-07-28 14:01
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @YcComponent
-public @interface YcConfiguration {
-
+public @interface YcService {
+    String value() default "";
 }

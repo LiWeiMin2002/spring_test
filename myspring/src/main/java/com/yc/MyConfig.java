@@ -2,6 +2,7 @@ package com.yc;
 
 import org.myframework.annotation.YcComponentScan;
 import org.myframework.annotation.YcConfiguration;
+import org.myframework.annotation.YcPropertySource;
 
 /**
  * @program: spring学习
@@ -11,5 +12,6 @@ import org.myframework.annotation.YcConfiguration;
  */
 @YcConfiguration
 @YcComponentScan(basePackages = "com.yc")
+@YcPropertySource(value = "db.properties")
 public class MyConfig {
 }
