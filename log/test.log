@@ -1,2 +1,2 @@
-16:00:48.963 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 50 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
-16:00:48.969 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 108 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/spring%e5%ad%a6%e4%b9%a0/myspring/target/classes/com/yc
+16:38:02.855 INFO  org.myframework.context.YcAnnotationConfigApplicationContext 56 <init> - com.yc.MyConfig类上有@YcComponentScan注解，它要扫描的路径：com.yc
+16:38:02.870 TRACE org.myframework.context.YcAnnotationConfigApplicationContext 171 recursiveLoadBeanDefinition - 当前正在递归加载：/C:/IDEA/spring%e5%ad%a6%e4%b9%a0/myspring/target/classes/com/yc

@@ -1,5 +1,8 @@
 package org.myframework.context;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * 对一个Bean的特征的包装的类
  * 特征：scope(singleton、prototype......)

@@ -2,7 +2,9 @@ package com.yc.dao;
 
 
 import com.yc.dao.UserDao;
+import org.myframework.annotation.YcLazy;
 import org.myframework.annotation.YcRepository;
+import org.myframework.annotation.YcScope;
 
 /**
  * @program: spring学习

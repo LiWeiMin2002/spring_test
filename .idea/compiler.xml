@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myspring" />
+        <module name="aop" />
+        <module name="myproxy" />
       </profile>
     </annotationProcessing>
   </component>

@@ -5,14 +5,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * @program: spring学习
- * @description:
- * @author: lwm
- * @create: 2023-07-28 14:24
- */
+
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface YcScope {
-
+     String value() default "singleton";
 }
